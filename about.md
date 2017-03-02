@@ -1,11 +1,10 @@
 ---
 layout: page
-title: About
+title: 关于我
 permalink: /about/
 ---
 
-This is a simple Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/).  Plus, you can find a lot of themes at [jekyllthemes.org](http://jekyllthemes.org/)
+我是一个自由职业的程序员，当前主要研究Yii2最佳实践，将来打算研究单页应用的开发。
 
-You can find the source code for this theme at: <data data-icon="ei-sc-github"></data>  [jekyll-simple](https://github.com/wild-flame/jekyll-simple)
-
-You can find the source code for Jekyll at <data data-icon="ei-sc-github"></data>  [jekyll](https://github.com/jekyll/jekyll)
+已开发出一套用于小公司主页的网站搭建工具，欢迎大家使用 [下载 源码]({{ site.url }}/assets/webcreator-v1.zip)，
+关于该工具的介绍请见[webcreator建站工具]({{ site.url }}/开源程序/2017/03/02/company-page-builder.html).
