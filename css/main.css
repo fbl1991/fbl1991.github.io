@@ -418,7 +418,7 @@ th {
 @media (min-width: 401px) {
   .container {
     width: 100%;
-    padding: 64px 32px; } }
+    padding: 64px 32px;} }
 /* For devices larger than 780px */
 @media (min-width: 781px) {
   .container {
@@ -896,7 +896,7 @@ body {
   min-height: 100%;
   box-sizing: border-box;
   height: auto;
-  padding-bottom: 140px;
+  padding-bottom: 200px;
   /*等于或略大于footer的高度*/ }
 
 .site-footer {
