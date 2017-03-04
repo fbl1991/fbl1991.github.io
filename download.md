@@ -26,6 +26,6 @@ permalink: /download/
 | 				|  		微信、QQ登陆		|   	    |	￥500	|
 
 * <span class="red"> * </span> <span class="grey">表示有该功能</span>
-* <span class="grey">附加功能可任意组合选用,购买请 [联系我]({{ site.baseurl }}/contact)</span>
+* <span class="grey">附加功能可任意组合选用,购买请扫描下方二维码联系我</span>
 
 [webcreator的详细介绍]({{ site.baseurl }}/开源程序/2017/03/02/company-page-builder.html)
