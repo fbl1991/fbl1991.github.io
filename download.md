@@ -1,7 +1,6 @@
 ---
 layout: page
 title: webcreator下载
-permalink: /download/
 ---
 
 [基础版下载]({{ site.baseurl }}/assets/webcreator_base.zip)

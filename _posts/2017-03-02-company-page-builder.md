@@ -13,9 +13,13 @@ description: webcreator建站工具是一个免费的开源软件，专门为小
 # 功能介绍
 
 该网站的前台首页是这个样子的(访问链接frontend/web)
+
 ![]({{site.baseurl}}/assets/img/webhomepage.png)
+
 后台首页是这个样子的(访问链接backend/web)
+
 ![]({{site.baseurl}}/assets/img/webbackend.png)
+
 ## 前台
 ### 首页及关于我们
 
@@ -51,7 +55,7 @@ Redactor可选）添加，丰富了新闻的展现形式。新闻状态可设为
 ### 用户管理
 可以查看当前网站的注册用户信息，删除某些恶意用户，并且能够设置管理员。
 
-[下载试用]({{site.baseurl}}/assets/webcreator-v1.zip)
+[下载试用]({{site.baseurl}}/assets/webcreator_base.zip)
 
 
 
