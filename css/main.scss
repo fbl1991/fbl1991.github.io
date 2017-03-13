@@ -64,6 +64,14 @@ $on-laptop:        780px;
   color:gray;
 }
 
+.num{
+  width: 30px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: lightgoldenrodyellow;
+  margin-left: 10px;
+  display: inline-block;
+}
 @import
         "normalize",
         "base",
