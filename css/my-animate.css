@@ -1,0 +1,21 @@
+
+@keyframes rotate {
+    0%{
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 0.8;
+    }
+
+    100%{
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        opacity: 1;
+    }
+}
+
+.rotate {
+    -webkit-animation-name: rotate;
+    animation-name: rotate;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="webcreator,开源建站,公司主页,Yii">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <!-- evil icon -->
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+  <link rel="stylesheet" href="{{"/assets/evil-icons.min.css" | prepend:site.baseurl }}">
+  <link rel="stylesheet" href="{{"/css/animate.min.css" | prepend:site.baseurl }}">
+  <link rel="stylesheet" href="{{"/css/my-animate.css" | prepend:site.baseurl }}">
+  <link rel="stylesheet" href="{{"/css/swiper.min.css" | prepend:site.baseurl }}">
+  <link rel="stylesheet" href="{{"/css/fullscreen.css" | prepend:site.baseurl }}">
+  <script src="{{"/js/zepto.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/js/swiper.jquery.min.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/js/swiper.animate1.0.2.min.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/js/ready.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/assets/js/baidupush.js" | prepend:site.baseurl }}"></script>
+  <script src="{{"/js/fullScreen.js" | prepend:site.baseurl }}"></script>
+
+  </head>
+
+  <body>
+    {{ content }}
+  <img class="full-screen" src="{{"/assets/img/fullscreen.png" | prepend:site.baseurl }}"></img>
+  </body>
+</html>

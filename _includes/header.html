@@ -18,12 +18,12 @@
       <nav>
         <ul class="page-link">
 
-          <li><a href="{{ "/" | prepend: site.baseurl }}" class="gray"> 首页</a></li>
-          <li><a href="{{ "/archive" | prepend: site.baseurl }}" class="gray"> 所有文章</a></li>
+          <li><a href="{{ "/" | prepend: site.baseurl }}" > 首页</a></li>
+          <li><a href="{{ "/archive" | prepend: site.baseurl }}" > 所有文章</a></li>
 
           {% for category in site.categories %}
           <li>
-            <a href="{{ "/categories" | prepend: site.baseurl }}/{{category | first}}" class="gray"> {{ category | first}}
+            <a href="{{ "/categories" | prepend: site.baseurl }}/{{category | first}}" > {{ category | first}}
             <span class="num">{{ category | last | size }}</span></a>
           </li>
           {% endfor %}

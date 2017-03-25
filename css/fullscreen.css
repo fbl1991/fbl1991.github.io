@@ -1,0 +1,12 @@
+.full-screen {
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  opacity: 0.6;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  z-index: 10;
+  text-align: center; }
+
+/*# sourceMappingURL=fullscreen.css.map */
