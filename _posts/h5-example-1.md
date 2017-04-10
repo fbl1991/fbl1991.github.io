@@ -1,7 +1,7 @@
 ---
 layout: h5page
 title:  一个h5页面的例子
-category: h5
+category: H5
 description: 
 ---
 
