@@ -1,8 +1,5 @@
 <link rel="stylesheet" href="{{"/css/loaders.min.css" | prepend:site.baseurl }}">
 <style>
-    body{
-        background-color: rgb(184,247,136);
-    }
     .loader{
         position: absolute;
         display: block;
@@ -10,10 +7,15 @@
         height: 50px;
         z-index: 10;
     }
+    .ball-grid-pulse > div {
+        background-color: rgb(235,63,47);
+    }
 </style>
 
 
 <script src="{{"/js/loading.js" | prepend:site.baseurl }}"></script>
 <script >
-    loading.init('<div class="loader"><div class="loader-inner pacman"><div></div><div></div><div></div><div></div><div></div></div></div>');
+    //loading.init('<div class="loader"><div class="loader-inner pacman"><div></div><div></div><div></div><div></div><div></div></div></div>');
+    //loading.init('<div class="loader"> <div class="loader-inner triangle-skew-spin"> <div></div> </div></div>');
+    loading.init('<div class="loader"> <div class="loader-inner ball-grid-pulse"> <div></div> <div></div> <div></div> <div></div> <div></div> <div></div> <div></div> <div></div> <div></div> </div> </div>');
 </script>
